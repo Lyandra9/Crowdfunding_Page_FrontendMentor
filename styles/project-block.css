@@ -1,0 +1,130 @@
+@media only screen and (max-width: 350px) {
+  .project-block-buttons button:first-child {
+    background-color: hsl(176, 50%, 47%);
+    padding: 10px 40px !important;
+    border: none;
+    color: #fff;
+    font-size: 15px !important;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .project-block-buttons button:nth-child(2) span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .project-block {
+    background-color: #fff;
+    width: 90vw !important;
+    top: -15vh;
+  }
+
+  .project-block-buttons button:nth-child(2) span {
+    display: none;
+  }
+
+  .project-block > img {
+    top: -4vh;
+    width: 70px;
+  }
+
+  .project-block-buttons button > img {
+    position: relative !important;
+  }
+
+  .project-block-buttons button:nth-child(2) {
+    border: none;
+    position: relative;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: transparent !important;
+  }
+
+  .project-block-buttons button:first-child {
+    background-color: hsl(176, 50%, 47%);
+    padding: 10px 40px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+  }
+}
+.actual-body {
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.project-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 55vw;
+  top: -15vh;
+  position: relative;
+  border-radius: 5px;
+  padding: 9vh 4vw;
+  text-align: center;
+  margin-bottom: -65px;
+}
+
+.project-block > img {
+  position: absolute;
+  top: -8vh;
+  width: 100px;
+}
+
+.project-block-text h2 {
+  padding-bottom: 2vh;
+}
+
+.project-block-text p {
+  font-weight: 300;
+  padding-bottom: 4vh;
+}
+
+.project-block-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.project-block-buttons button:first-child {
+  background-color: hsl(176, 50%, 47%);
+  padding: 20px 60px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  align-items: center;
+}
+
+.project-block-buttons button:first-child:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+
+.project-block-buttons button {
+  border-radius: 70px;
+  cursor: pointer;
+}
+.project-block-buttons button:nth-child(2) {
+  border: none;
+  width: 200px;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project-block-buttons button > img {
+  position: absolute;
+  top: 0;
+  left: 0px;
+}

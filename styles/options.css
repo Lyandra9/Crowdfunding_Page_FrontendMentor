@@ -1,0 +1,110 @@
+@media only screen and (max-width: 900px) {
+  .about-project {
+    width: 90vw !important;
+  }
+}
+
+.about-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 55vw;
+  position: relative;
+  border-radius: 5px;
+  padding: 9vh 4vw;
+  text-align: left;
+  border-radius: 5px;
+  margin-top: 5vh;
+}
+
+.about-project-text h2 {
+  padding-bottom: 2vh;
+}
+.about-project-text p {
+  line-height: 4vh;
+  font-weight: 300;
+  padding-bottom: 2vh;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: #fff;
+  width: 95%;
+  position: relative;
+  border-radius: 5px;
+  padding: 4vh 6vw;
+  text-align: left;
+  margin-top: 5vh;
+  border: 2px solid hsl(176, 50%, 47%);
+}
+
+.options h3 {
+  font-size: 20px;
+}
+
+.options h4:nth-child(2) {
+  color: hsl(176, 50%, 47%);
+  padding-bottom: 3vh;
+  padding-top: 1vh;
+}
+
+.options p {
+  line-height: 4vh;
+  padding-bottom: 3vh;
+}
+
+.options h4:nth-child(4) {
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.options h4 > span {
+  font-size: 15px;
+  font-weight: 300;
+  padding-left: 2vw;
+}
+
+.options button {
+  background-color: hsl(176, 50%, 47%);
+  padding: 15px 10px;
+  width: 200px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 40px;
+  margin-top: 2vh;
+}
+
+.options button:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+
+.grey {
+  border: 2px solid hsl(0, 0%, 48%);
+  position: relative;
+}
+
+.grey button {
+  background-color: hsl(0, 0%, 48%);
+}
+
+.grey button:hover {
+  background-color: hsl(0, 0%, 48%);
+}
+
+.white-overlay {
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
